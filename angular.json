@@ -17,27 +17,52 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Poulomi",
+            "outputPath": "dist/raghava_iris",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/vendor/bootstrap/css/bootstrap-4.2.1.min.css",
+              "src/assets/vendor/fontawesome/fontawesome-5.6.3.min.css",
+              "src/assets/vendor/slicknav/css/slicknav-1.0.10.min.css",
+              "src/assets/vendor/lightbox/css/lightbox-2.10.0.min.css",
+              "src/assets/vendor/owl-carousel/css/owl.carousel-2.3.4.min.css",
+              "src/assets/vendor/owl-carousel/css/owl.theme.default-2.3.4.min.css",
+              "src/assets/vendor/animate/animate-3.7.0.css",
+              "src/assets/vendor/pgw-slider/css/pgwslider-2.3.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/popper/popper-1.14.6.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap-4.2.1.min.js",
+              "src/assets/vendor/slicknav/js/jquery.slicknav-1.0.10.min.js",
+              "src/assets/vendor/lightbox/js/lightbox-2.10.0.min.js",
+              "src/assets/vendor/owl-carousel/js/owl.carousel-2.3.4.min.js",
+              "src/assets/vendor/waypoints/jquery.waypoints-2.0.3.min.js",
+              "src/assets/vendor/counterup/jquery.counterup-1.0.min.js",
+              "src/assets/vendor/wow/wow-1.3.0.min.js",
+              "src/assets/vendor/pgw-slider/js/pgwslider-2.3.js",
+              "src/assets/vendor/isotope/isotope.pkgd-3.0.6.min.js",
+              "src/assets/vendor/countdown/countdown.jquery.js",
+              "src/assets/vendor/paroller/jquery.paroller-1.4.6.min.js",
+              "src/assets/vendor/jquery-validation/jquery.validate-1.16.9.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/calc.js",
+              "src/assets/js/custom.js",
+              "src/assets/vendor/jquery/jquery-2.2.4.min.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "1000kb",
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -89,18 +114,15 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "Poulomi"
+  "cli": {
+    "analytics": "3af825e3-f172-44f4-baf7-c0b7bbb69a20"
+  }
 }

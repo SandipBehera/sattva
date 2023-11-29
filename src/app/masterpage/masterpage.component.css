@@ -1,0 +1,31 @@
+.image-blur{
+    filter: blur(10px);
+  }
+.loadergif{
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 30%;
+}
+.price-type{
+  color: white !important;
+}
+.price-carpet{
+  color: white !important;
+}
+.price-amt{
+  color: white !important;
+}
+.mb-w{
+  color: white !important;
+}
+.ami-6::before{left:50%;top:0;transition-duration:.4s}
+.ami-6::after{left:50%;bottom:0;transition-duration:.4s}
+.ami-6 .ami-container::before{left:0;top:50%;transition-duration:.4s}
+.ami-6 .ami-container::after{right:0;top:50%;transition-duration:.4s}
+.ami-6:hover::after,.ami-6:hover::before{left:0}
+.ami-6:hover .ami-container::after,.ami-6:hover .ami-container::before{top:0}
+.ami-block{width:92%}
+.ami-block{display:inline-block;position:relative;background:0 0;border:none;color:#fff;cursor:pointer;box-shadow:1px 1px 25px #e0e0e0}.ami-container{display:block;text-align:center}.ami-title{display:block;font-weight:600}.ami-block::after,.ami-block::before{content:"";width:0;height:2px;position:absolute;transition:all .2s linear;background:#fdbf32}.ami-container::after,.ami-container::before{content:"";width:2px;height:0;position:absolute;transition:all .2s linear;background:#fdbf32}.ami-block:hover::after,.ami-block:hover::before{width:100%}.ami-block:hover .ami-container::after,.ami-block:hover .ami-container::before{height:100%}.ami-1::after,.ami-1::before{transition-delay:.2s}.ami-1 .ami-container::after,.ami-1 .ami-container::before{transition-delay:0s}.ami-1::before{right:0;top:0}.ami-1::after{left:0;bottom:0}.ami-1 .ami-container::before{left:0;top:0}.ami-1 .ami-container::after{right:0;bottom:0}.ami-1:hover::after,.ami-1:hover::before{transition-delay:0s}.ami-1:hover .ami-container::after,.ami-1:hover .ami-container::before{transition-delay:.2s}.ami-2::after,.ami-2::before{transition-delay:0s}.ami-2 .ami-container::after,.ami-2 .ami-container::before{transition-delay:.2s}.ami-2::before{right:0;top:0}.ami-2::after{left:0;bottom:0}.ami-2 .ami-container::before{left:0;top:0}.ami-2 .ami-container::after{right:0;bottom:0}.ami-2:hover::after,.ami-2:hover::before{transition-delay:.2s}.ami-2:hover .ami-container::after,.ami-2:hover .ami-container::before{transition-delay:0s}.ami-3::after{left:0;bottom:0;transition-delay:.6s}.ami-3 .ami-container::after{transition-delay:.4s;right:0;bottom:0}.ami-3::before{right:0;top:0;transition-delay:.2s}.ami-3 .ami-container::before{transition-delay:0s;left:0;top:0}.ami-3:hover::after{transition-delay:0s}.ami-3:hover .ami-container::after{transition-delay:.2s}.ami-3:hover::before{transition-delay:.4s}.ami-3:hover .ami-container::before{transition-delay:.6s}.ami-4::after{right:0;bottom:0;transition-duration:.4s}.ami-4 .ami-container::after{right:0;bottom:0;transition-duration:.4s}.ami-4::before{left:0;top:0;transition-duration:.4s}.ami-4 .ami-container::before{left:0;top:0;transition-duration:.4s}.ami-5::after{left:0;bottom:0;transition-duration:.4s}.ami-5 .ami-container::after{right:0;top:0;transition-duration:.4s}.ami-5::before{right:0;top:0;transition-duration:.4s}.ami-5 .ami-container::before{left:0;bottom:0;transition-duration:.4s}.ami-6::before{left:50%;top:0;transition-duration:.4s}.ami-6::after{left:50%;bottom:0;transition-duration:.4s}.ami-6 .ami-container::before{left:0;top:50%;transition-duration:.4s}.ami-6 .ami-container::after{right:0;top:50%;transition-duration:.4s}.ami-6:hover::after,.ami-6:hover::before{left:0}.ami-6:hover .ami-container::after,.ami-6:hover .ami-container::before{top:0}@media only screen and (min-width:991px){.ami-block{margin:.8vw 1vw;width:100%}.ami-container{padding:1.2vw .8vw .8vw;height:11vw}.ami-img{height:4vw;display:block;margin:0 auto 1vw}.ami-title{font-size:1vw;display:block}}@media only screen and (max-width:991px){.ami-block{width:100%;margin:10px 0}.ami-container{padding:10px;height:150px}.ami-img{height:55px;width:auto;display:inline-block;margin:0 auto 10px}.ami-title{font-size:16px}}.gallery-thumb{width:100%;height:150px;opacity:.75;transition:all .5s;border-radius:3px}.gallery-thumb:hover{opacity:1;box-shadow:0 3px 6px rgba(0,0,0,.2);-webkit-transform:scale(1.05);-moz-transform:scale(1.05);-ms-transform:scale(1.05);-o-transform:scale(1.05);transform:scale(1.05)}@media only screen and (min-width:575px){.gallery-thumb{height:150px}}
+.imgh{
+  height: 215px;
+}

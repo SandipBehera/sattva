@@ -1,0 +1,60 @@
+<img src="../../assets/poulomi/images/project_image/loader.gif" class="loadergif" *ngIf="loading"/>
+ <div *ngIf="!loading">   
+    <div class="modal-header">
+          <h4 class="modal-title">Price On Request</h4>
+          <button type="button" class="close"  aria-label="Close" (click)="activeModal.dismiss('Cross click')">&times;</button>
+        </div>
+        <div class="modal-body ftop">
+  
+          <div class="row">
+  
+            <div class="foot-top">
+              <div class="col-md-12">
+  
+                <div style="clear: both;" class="reg-h">
+                  <h2 class="regi">Register Now to Experience More Life per Sq. Ft.</h2>
+                </div>
+  
+                <div class="foot-mail">
+                  <form [formGroup]="myForm" (ngSubmit)="OnSave()" novalidate>
+                    <div class="form-group mb-2">
+                      <input type="text" class="form-control rounded-0 micro-form-field" [(ngModel)]="user.name"
+                        name="form_name" formControlName="name" placeholder="First Name, Last Name" required>
+                      <div *ngIf="myForm.controls['name'].touched && myForm.controls['name'].invalid"
+                        class="alert alert-danger">
+                        <div *ngIf="myForm.controls['name'].errors?.required">Please enter name</div>
+                      </div>
+                    </div>
+                    <div class="form-group mb-2">
+                      <input type="email" class="form-control rounded-0 micro-form-field" [(ngModel)]="user.email"
+                        name="form_email" formControlName="email" placeholder="Your Email" required>
+                      <div *ngIf="myForm.controls['email'].touched && myForm.controls['email'].invalid"
+                        class="alert alert-danger">
+                        <div *ngIf="myForm.controls['email'].errors?.required">Please enter email id
+                        </div>
+                        <div *ngIf="myForm.controls['email'].errors?.pattern">invalid email id</div>
+                      </div>
+                    </div>
+                    <div class="form-group mb-2">
+                      <input type="tel" class="form-control rounded-0 micro-form-field" [(ngModel)]="user.phone"
+                        formControlName="phone" name="form_phone" placeholder="Your phone" required>
+                      <div *ngIf="myForm.controls['phone'].touched && myForm.controls['phone'].invalid"
+                        class="alert alert-danger">
+                        <div *ngIf="myForm.controls['phone'].errors?.required">Please enter mobile
+                          number</div>
+                        <div *ngIf="myForm.controls['phone'].errors?.pattern">Mobile number is not 10
+                          digit</div>
+                      </div>
+                    </div>
+                    <button class="btn btn-info micro-form-btn effetMoveGradient" [disabled]="!myForm.valid" type="submit"
+                      style="margin-top: 3%;">Book Now</button>
+                  </form>
+                </div>
+  
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+</div>
