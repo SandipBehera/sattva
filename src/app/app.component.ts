@@ -57,7 +57,7 @@ export class AppComponent {
   }
   getIp(): void {
     this.http
-      .post('https://www.keyonprop.com/api/postIp', 'prop_name=' + this.title, {
+      .post('https://app.keyonprop.com/api/postIp', 'prop_name=' + this.title, {
         headers: new HttpHeaders({
           'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
         }),
