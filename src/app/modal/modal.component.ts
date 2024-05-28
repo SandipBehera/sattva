@@ -61,7 +61,7 @@ export class ModalComponent implements OnInit {
   }
   getIp(): void {
     this.http
-      .get('https://www.app.keyonprop.com/api/getIp')
+      .get('https://app.keyonprop.com/api/getIp')
       .subscribe((res: any) => {
         return (this.ipAddress = res.message);
       });
