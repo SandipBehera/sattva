@@ -6807,8 +6807,8 @@ footer {
 }
 .demo-gallery > ul {
   margin-bottom: 0;
-  padding-left: 0px;
-  margin-left: -14px;
+  /* padding-left: 0px; */
+  /* margin-left: -14px; */
 }
 .demo-gallery > ul > li {
   margin-bottom: 15px;
