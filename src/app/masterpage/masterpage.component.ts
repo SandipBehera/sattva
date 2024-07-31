@@ -18,6 +18,8 @@ export class MasterpageComponent implements OnInit {
   loading = false;
   public myForm: FormGroup | any;
   ipAddress: any;
+  
+
   @Input() user: User = { name: '', email: '', phone: '', url: this.title };
   constructor(
     private modalService: NgbModal,
@@ -60,4 +62,4 @@ export class MasterpageComponent implements OnInit {
     this.loading = false;
     window.location.href = '/thankyou';
   }
-}
+  }

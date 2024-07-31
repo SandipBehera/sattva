@@ -34,7 +34,8 @@
               "src/assets/vendor/animate/animate-3.7.0.css",
               "src/assets/vendor/pgw-slider/css/pgwslider-2.3.css",
               "src/assets/css/style.css",
-              "src/assets/css/responsive.css"
+              "src/assets/css/responsive.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "src/assets/vendor/popper/popper-1.14.6.min.js",
@@ -54,7 +55,8 @@
               "src/assets/js/calc.js",
               "src/assets/js/custom.js",
               "src/assets/vendor/jquery/jquery-2.2.4.min.js"
-            ]
+            ],
+            "sourceMap": false
           },
           "configurations": {
             "production": {
