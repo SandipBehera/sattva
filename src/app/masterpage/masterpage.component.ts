@@ -20,7 +20,7 @@ export class MasterpageComponent implements OnInit {
   ipAddress: any;
   
 
-  @Input() user: User = { name: '', email: '', phone: '', url: this.title };
+  @Input() user: User = { name: '', email: '', phone: '', projectName: this.title };
   constructor(
     private modalService: NgbModal,
     private element: ElementRef,
