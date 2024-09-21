@@ -18,7 +18,7 @@ export class ModalComponent implements OnInit {
   public myForm: FormGroup | any;
   ipAddress: any;
   IpAddress: any = this.getIp();
-  @Input() user: User = { name: '', email: '', phone: '', url: this.title };
+  @Input() user: User = { name: '', email: '', phone: '', projectName: this.title };
   constructor(
     public activeModal: NgbActiveModal,
     private element: ElementRef,
